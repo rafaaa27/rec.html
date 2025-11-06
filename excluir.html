@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excluir</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 80px;
+            background-color: #fff5f5;
+        }
+        input {
+            width: 300px;
+            padding: 10px;
+            margin-top: 15px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #dc3545;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #c82333;
+        }
+    </style>
+</head>
+<body>
+    <h1>O que você deseja excluir?</h1>
+    <input type="text" placeholder="Digite aqui...">
+    <br>
+    <button onclick="voltar()">Voltar</button>
+
+    <script>
+        function voltar() {
+            window.location.href = 'index.html';
+        }
+    </script>
+</body>
+</html>

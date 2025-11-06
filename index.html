@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Principal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 80px;
+            background-color: #f8f9fa;
+        }
+        h1 {
+            color: #333;
+        }
+        button {
+            padding: 12px 24px;
+            margin: 10px;
+            border: none;
+            border-radius: 6px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Menu Principal</h1>
+    <button onclick="abrirPagina('incluir.html')">Incluir</button>
+    <button onclick="abrirPagina('alterar.html')">Alterar</button>
+    <button onclick="abrirPagina('excluir.html')">Excluir</button>
+    <button onclick="abrirPagina('consultar.html')">Consultar</button>
+
+    <script>
+        function abrirPagina(pagina) {
+            window.location.href = pagina;
+        }
+    </script>
+</body>
+</html>
